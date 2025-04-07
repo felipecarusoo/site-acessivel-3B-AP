@@ -4,8 +4,9 @@
 :root {
     --laranja-claro:  #FF862A;
     --alto-contraste-fundo:  #000000;
-    --alto-contraste-texto:  #ffffff;
-    --alto-contraste-link:  #ffd700;
+    --alto-contraste-texto:  #F594ED;
+    --alto-contraste-link:  #FFFFFF;
+    --alto-contraste-titulos: #04FA00;
 }
 
 
@@ -171,6 +172,11 @@ h2 {
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
 }
+.alto-contraste h2 {
+   color: var(--alto-contraste-titulos);
+}
+
+
 .alto-contraste header, .alto-contraste footer, .alto-contraste .formulario{
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
